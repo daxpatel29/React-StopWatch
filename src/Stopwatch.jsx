@@ -19,7 +19,9 @@ const Stopwatch = () => {
             setFlag(false); 
         } else {
             clearInterval(id);
-            setFlag(true); 
+            setFlag(true);
+            
+            
         }
     };
 
